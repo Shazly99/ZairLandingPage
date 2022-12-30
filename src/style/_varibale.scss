@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,500&family=Roboto+Mono:wght@200;300;400;500;600;700&family=Roboto:wght@700;900&display=swap');
+$shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+$mainColor: #FFC786; 
+$lightColor: #F9F9F9;  
+$font: 'Roboto', sans-serif;
+
+@mixin flex($display, $justify, $align, $dir) {
+        display: $display;
+        justify-content: $justify;
+        align-items: $align;
+        flex-direction: $dir ;
+}
+
+@mixin size($w, $h) {
+    width: $w;
+    height: $h;
+}
+
+/**
+ * 
+ * 
+ * 
+ *   <Col xl={3} lg={4} md={6} sm={12}   className='bg-danger'>
+       <h1>shzloka</h1>
+     </Col>
+ */
