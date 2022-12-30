@@ -4,8 +4,9 @@ import Component from './constants/Component';
 function App() {
   return (
     <>
-    <Component.Plans/>
-     <Component.Contact/>  
+      <Component.Falcon />
+      <Component.Contact />
+      <Component.Plans />
     </>
   );
 }

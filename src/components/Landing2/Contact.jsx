@@ -9,7 +9,7 @@ function Contact() {
             <Row>
                 <Col xl={6} lg={6} md={6} sm={12} className='   app__Landingpage '>
                     <div className="app__Landingpage-bg ">
-                        <img src={img.bgContact} width="75%"   />
+                        <img src={img.bgContact}    />
                         <div style={{ zIndex: 9999 }} className='Logo'>LOGO</div>
                     </div>
                 </Col>
