@@ -1,3 +1,4 @@
+
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import Component from '../../constants/Component'
@@ -24,7 +25,7 @@ function Plans() {
                         </div>
 
                         <div className="app__landingPlans-content-price ">
-                            <Row>
+                            <Row className=' d-flex justify-content-center align-items-center'>
                                 <Col xl={4} lg={4} md={6} sm={12} >
                                     <Component.PlanCard />
                                 </Col>

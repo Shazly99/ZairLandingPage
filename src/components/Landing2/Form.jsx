@@ -12,10 +12,10 @@ function FormContact() {
     return (
         <>
             <form onSubmit={(e) => handleSubmit(e)} >
-                <Component.InputGroup name='FromName' type='text' labelname='Full Name' placeholder='Full Name'/>
-                <Component.InputGroup name='FromName' type='email' labelname='Email' placeholder='Email'/>
-                <Component.InputGroup name='FromName' type='number' labelname='Phone Number ' placeholder='Phone Number'/>
-                <Component.InputGroup name='FromName' type='text' labelname='Company Name' placeholder='Company Name'/>
+                <Component.InputGroup name='FromName' type='text' labelname='Full Name'  />
+                <Component.InputGroup name='FromName' type='email' labelname='Email'  />
+                <Component.InputGroup name='FromName' type='number' labelname='Phone Number '  />
+                <Component.InputGroup name='FromName' type='text' labelname='Company Name'  />
                 
                 <div className="app__Landingpage-FromName">
                     <label htmlFor="">Message</label>

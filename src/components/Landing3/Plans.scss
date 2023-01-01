@@ -23,7 +23,6 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
-
         h2 {
             font-style: normal;
             font-weight: 600;
@@ -48,8 +47,8 @@
 }
 
 .app__landingPlans-content {
-
     .app__landingPlans-content-choose {
+        
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -94,7 +93,6 @@
     border-radius: 25px;
     min-height: 499px;
     padding: 24px 27px;
-
     p {
         text-align: left !important;
         font-weight: 400;

@@ -8,10 +8,10 @@ function Falcon() {
     return (
         <>
             <div className="app__falcon">
-                <div className="bgright "> <img src={Img.Ellipse2} alt="" /> </div>
+                {/* <div className="bgright "> <img src={Img.Ellipse2} alt="" /> </div>
                 <div className="bgleft">
                     <img src={Img.Ellipse1} alt="" />
-                </div>
+                </div> */}
                 <Container fluid>
                     <img src={Img.Logo} alt="Falcon Logo" />
                     <Row>
@@ -25,11 +25,15 @@ function Falcon() {
                         </Col>
                         <Col xl={6} lg={6} md={6} sm={12} >
                             <div className="app__falcon-img">
-                                <img src={Img.Group2} alt=""  width='644' height='745'/>
-                            </div> 
+                                <img src={Img.Group2}  width='644' height='630'  />
+                            </div>
                         </Col>
                     </Row>
-                    
+                    <div className="app__falcon-imgs d-flex justify-content-between align-items-center">
+                        <img src={Img.Dashboard} alt="" srcset="" />
+                        <img src={Img.Location1} alt="" srcset="" />
+                        <img src={Img.Location2} alt="" srcset="" />
+                    </div>
                 </Container>
             </div>
         </>

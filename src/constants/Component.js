@@ -5,6 +5,7 @@ import Plans from './../components/Landing3/Plans';
 import PlanCard from './../components/Landing3/PlanCard';
 import InputGroup from './../components/Landing2/InputGroup';
 import Falcon from './../components/Landing1/Falcon';
+import Falcon2 from './../components/Landing1.2/Falcon';
 import Button from './../components/Landing1/Button';
 
 export default {
@@ -14,6 +15,7 @@ export default {
  PlanCard,
  InputGroup,
  Falcon,
- Button
+ Button,
+ Falcon2
 }
 
