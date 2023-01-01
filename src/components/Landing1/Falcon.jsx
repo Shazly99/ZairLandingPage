@@ -2,16 +2,17 @@ import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap';
 import Img from '../../assets/Img';
 import Component from '../../constants/Component';
-import './falcon.scss'
+import '../Landing1.2/falcon.scss'
 
 function Falcon() {
     return (
         <>
-            <div className="app__falcon">
-                <div className="bgright "> <img src={Img.Ellipse2} alt="" /> </div>
-                <div className="bgleft">
-                    <img src={Img.Ellipse1} alt="" />
-                </div>
+            <div className="app__falcon "> 
+                    <div className="bgright position-absolute "> <img src={Img.Ellipse2} alt="" /> </div>
+                    <div className="bgleft position-absolute">
+                        <img src={Img.Ellipse1} alt="" />
+                    </div>
+               
                 <Container fluid>
                     <img src={Img.Logo} alt="Falcon Logo" />
                     <Row>
@@ -23,13 +24,13 @@ function Falcon() {
                                 <Component.Button bg='bgLight' color='colorDark' borderColor='borderDark' fontSize='fs-18' text='Download App' />
                             </div>
                         </Col>
-                        <Col xl={6} lg={6} md={6} sm={12} >
-                            <div className="app__falcon-img">
-                                <img src={Img.Group2} alt=""  width='644' height='745'/>
-                            </div> 
+                        <Col xl={6} lg={6} md={12} sm={12}  >
+                            <div className="app__falcon-img2 ">
+                                <img src={Img.Group2} width='644' height='630' />
+                            </div>
                         </Col>
                     </Row>
-                    
+
                 </Container>
             </div>
         </>

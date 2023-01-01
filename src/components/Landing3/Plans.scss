@@ -58,7 +58,10 @@
         width: 414px;
         height: 70px;
         background: #F2F2F2;
-
+        @media screen and (max-width:767px) {
+        width: 314px;
+            
+        }
         :nth-child(1),
         :nth-child(2) {
             width: calc(414px / 2);
@@ -84,6 +87,7 @@
     .app__landingPlans-content-price {
         margin-top: 40px;
         width: 100%;
+
     }
 }
 
@@ -93,6 +97,9 @@
     border-radius: 25px;
     min-height: 499px;
     padding: 24px 27px;
+    @media screen and (max-width:990px) {
+        margin-top: 50px;
+    }
     p {
         text-align: left !important;
         font-weight: 400;

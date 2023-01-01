@@ -7,11 +7,7 @@ import './falcon.scss'
 function Falcon() {
     return (
         <>
-            <div className="app__falcon">
-                {/* <div className="bgright "> <img src={Img.Ellipse2} alt="" /> </div>
-                <div className="bgleft">
-                    <img src={Img.Ellipse1} alt="" />
-                </div> */}
+            <div className="app__falcon"> 
                 <Container fluid>
                     <img src={Img.Logo} alt="Falcon Logo" />
                     <Row>
@@ -23,17 +19,23 @@ function Falcon() {
                                 <Component.Button bg='bgLight' color='colorDark' borderColor='borderDark' fontSize='fs-18' text='Download App' />
                             </div>
                         </Col>
-                        <Col xl={6} lg={6} md={6} sm={12} >
-                            <div className="app__falcon-img">
-                                <img src={Img.Group2}  width='644' height='630'  />
+                     <Col xl={6} lg={6} md={12} sm={12}  >
+                            <div className="app__falcon-img2 ">
+                                <img src={Img.Group2} width='644' height='630' />
                             </div>
-                        </Col>
+                        </Col> 
                     </Row>
-                    <div className="app__falcon-imgs d-flex justify-content-between align-items-center">
-                        <img src={Img.Dashboard} alt="" srcset="" />
-                        <img src={Img.Location1} alt="" srcset="" />
-                        <img src={Img.Location2} alt="" srcset="" />
-                    </div>
+                        <Row className="   app__falcon-imgs d-flex justify-content-between align-items-center ">
+                            <Col>
+                                <img src={Img.Dashboard} />
+                            </Col>
+                            <Col>
+                                <img src={Img.Location1} />
+                            </Col>
+                            <Col>
+                                <img src={Img.Location2} />
+                            </Col>
+                        </Row>
                 </Container>
             </div>
         </>

@@ -4,8 +4,7 @@
     background-size: contain;
     height: 1024px !important;
     position: relative; 
-    @media screen and (max-width:767px) {
-        // background-size: cover;
+    @media screen and (max-width:767px) { 
         height: 700px !important;
     }
     .Logo {
@@ -28,12 +27,13 @@
 }
 
 .app__Landingpage__contact {
-
     margin-top: 50px !important;
 
     @media screen and (max-width:767px) {
         margin-top: 0px !important;
-        width: 70%;
+        width: 90% !important;
+        margin: auto !important; 
+        padding-bottom: 20px !important;
     }
 
     p {
